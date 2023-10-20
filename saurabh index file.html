@@ -1,0 +1,387 @@
+<html>
+    <head>
+        <title>PORTFOLIO</title>
+            <style>
+                *{
+                    margin:0;
+                    padding:0;
+                    box-sizing: border-box;
+                }
+                body{
+                    height:100%;
+                    width:100%;
+
+                }
+                .main{
+                    position:relative;
+
+                }
+                
+                #page{
+                    position:relative;
+                    height:100%;
+                    width:100%;
+                    background-color:beige;
+
+                }
+              #page>img{ 
+                position:relative;
+                float:right;
+                margin-top:8%;
+                width:35%;
+                height:75%;
+               }
+              #page>#nav{
+                display:flex;
+                align-items:center;
+                justify-content:right;
+                border:none;
+                padding:0px 30px;
+                position:absolute;
+                z-index:9%;
+                height:10%;
+                width:100%;
+                background-color:beige;
+
+             }
+             #center-nv{
+                display:flex;
+                gap:20px;
+                align:center;
+             }
+             #center-nv>a{
+                text-decoration: none;
+                color:black ;
+                font-weight:bolder;
+                font-size:large;
+             }
+             #nav>input{
+                
+                padding:10px 5px;
+                border-radius:10px;
+                text-transform:uppercase;
+             }
+                
+                #text{
+                    height:75%;
+                    width:35%;
+                    background-color:beige;
+                    position:relative;
+                    top:15%;
+                    left:5%;
+                    
+                }
+                #text>h2{
+                    color:black;
+                    font-weight: bold;
+                    font-size:80px;
+                    font-family:sans-serif;
+                }
+                #bttn{
+                    position:absolute;
+                    padding:0;
+                    left:0%;
+                    bottom:12%;
+                    height:10%;
+                    width:60%;
+                    background-color:beige;
+
+                }
+                #bttn>button{
+                     padding:10px 22px;
+                     border-radius:20px;
+                     border:none;
+                }
+                .b1{
+                    background-color:blueviolet;
+                }
+                #page1{
+                    position:relative;
+                    z-index:9%;
+                    height:170%;
+                    width:100%;
+                    background-color:aquamarine;
+                }
+                #fb{
+                    display:flex;
+                    justify-content:center;
+                }
+                #page1>#left{
+                    position: absolute;
+                    height: 100%;
+                    width:45%;
+                    left:1%;
+                    top:11%;
+                 
+                    background:beige;
+                }
+                   #page1>#right{
+                     position: absolute;
+                    height: 100%;
+                    width:45%;
+                    right:1%;
+                    margin-top:7%;
+                 
+                    background:beige;
+                }
+                #left>.box{
+                    height:33.3%;
+                    width:90%;
+                    float:left;
+                    font-size:large;
+                    color:black;
+                    font-weight:bold;
+                    font-size:larger;
+                    background-color:beige;
+                    border-top:2px solid black;
+
+                }
+               .box>h1{
+                    font-weight:bolder;
+                    font-size:50px;
+                }
+                .box>img{
+                    float:right;
+                    height:30%;
+                    width:30%;
+                    align:center;
+                }
+               #right>.box1{
+                    height:33.3%;
+                    width:100%;
+                    float:right;
+                    font-size:large;
+                    color:black;
+                    font-weight:bold;
+                    font-size:larger;
+                    background-color:beige;
+                    border-top:2px solid black;
+                }
+                .box1>h1{
+                    font-weight:bolder;
+                    font-size:50px;
+                }
+                .box1>img{
+                    float:right;
+                    height:70%;
+                    width:50%;
+                    align:center;
+                }
+                #fb{
+                    display:flex;
+                    justify-content:center;
+                    background-color:white;
+                }
+              #page2{
+                  position:relative;
+                    z-index:9%;
+                    height:100%;
+                    width:100%;
+                    background-color:beige;
+              }
+              #fb2{
+                display:flex;
+                justify-content:center;
+                background-color: white;
+                
+              }
+              
+              #center>.box31{
+                    height:23.3%;
+                    width:100%;
+                    float:right;
+                    font-size:large;
+                    color:black;
+                    font-weight:bold;
+                    font-size:larger;
+                    background-color:beige;
+                    border-top:2px solid black
+              }
+              #center>.box32{
+                    height:23.3%;
+                    width:100%;
+                    float:right;
+                    font-size:large;
+                    color:black;
+                    font-weight:bold;
+                    font-size:larger;
+                    background-color: beige;
+                    border-top:2px solid black
+              }
+              #center>.box33{
+                    height:23.3%;
+                    width:100%;
+                    float:right;
+                    font-size:large;
+                    color:black;
+                    font-weight:bold;
+                    font-size:larger;
+                    background-color:beige;
+                    border-top:2px solid black
+              }
+
+              #contact{
+                  position:relative;
+                    z-index:9%;
+                    height:100%;
+                    width:100%;
+                    background-color:beige;
+              }
+              #fb3{
+                display:flex;
+                justify-content:center;
+                background-color: white;
+              }
+                #for{
+                    float:right;
+                    margin-right:30%;
+                    background-color: coral;
+                    font-weight:bold;
+                    font-size: large;
+                }
+                .val{
+                    height:30%;
+                    width:100%;
+                    color:black;
+                }
+                #about{
+                    position:relative;
+                    z-index:9%;
+                    height:100%;
+                    width:100%;
+                    background-color:beige;
+              }
+              #about>#box0{
+                    height:53.3%;
+                    width:100%;
+                    float:right;
+                    font-size:large;
+                    color:black;
+                    font-weight:bold;
+                    font-size:larger;
+                    background-color:beige;
+                    border-top:2px solid black
+              }
+                
+                </style>
+                <body>
+                    <div id="main">
+                        <div id="page">
+                            <div  id="nav">
+                                <div id="center-nv">
+                                   <a href="#">ABOUT</a>
+                                    <a href="#">SKILLS</a>
+                                    <a href="#">PROJECTS</a>
+                                    <a href="#">CONTACT</a>
+
+                                </div>
+                                <input type="text" placeholder="search">
+                            </div>
+                            <img src="my picture.jpeg">
+                            <div id="text">
+                             <h2>Hello, I am<br/> Saurabh<br/>Singh</h2>
+                             <div id="bttn">
+                                <button class="b1"><a href=""></a>RESUME</button>
+                                <button class="b1">PORTFOLIO</button>
+                             </div>
+                            </div>
+                        </div>
+                        <div id="about">
+                            <h1>ABOUT ME</h1>
+                            <div id="box0">
+                                <br/><br/>
+                                <p>I am Saurabh , <br/>I did my graduation from BCA  college of Innovative management and science(affiliated to LU)<br/> and I am currently pursuing M.C.A<br/>
+                                
+                                I live in lucknow and <br/>I did my schooling from Lucknow.
+                            <br/>The ability I posses can assist with the <br/>implementation of innovative ideas, creativity , and skills.</p>
+
+                            </div>
+                        </div>
+                        <div id="page1">
+                          <div id="fb">
+                            <h1>SKILLS</h1>
+                          </div>
+                            <div id="left">
+                                <div class="box">
+                                    <h1>C++</h1>
+                                    <img src="./c++.png">
+                                    <p>Completed Comprehensive Coursework</p></div>
+                                <div class="box">
+                                <h1>C</h1>
+                                <img src="./c.jpg">
+                                <p>Acquired Foundational Knowledge of c programming Language,<br/> proividing a strong basis for <br/>further development</p>
+                                </div>
+                                <div class="box">
+                                    <h1>JAVA</h1>
+                                    <img src="./java.jpg">
+                                    <p>proficient with the concepts of oop</P>
+                                 </div>
+                            </div>
+                            <div id="right">
+                                <div class="box1">
+                                   
+                                         <h1>MICROSOFT OFFICE</h1>
+                                          <img src="./ms office.png" >                                 
+                                         <p>proficient in utilizing Microsoft word,<br/> powerpoint,Excel to create<br/>engaging presentations, docvuments, anmd data analysis</p>
+                                         
+                                </div>
+                                <div class="box1">
+                                <h1>Creative</h1>
+                                <img src="./creative.png">
+                                <p>creative problem solving skills<br/>good at finding solutions ingenously</p>
+                                 </div>
+                                <div class="box1">
+                                          <h1>TEAM WORKER</h1>
+                                         <img src="./team work.jpg" >                                 
+                                        <p>Can work efficiently with a team.</p>
+                                        </div> 
+                                </div>
+                                </div>
+                                <div id="page2">
+                                    <div id="fb2">
+                                        <h1>PROJECT</h1>
+                                    </div>
+                                    <div id="center">
+                                    <div class="box31">
+                                        <h1>TO-DO list</h1>
+                                        <p>created a TO-DO LIST application using CSS,HTML and JAVASCRIPT<br/>
+                                        it allows users to add,edit and delete tasks </p>
+
+                                    </div>
+                                    <div class="box32">
+                                        <h1>CALCULATOR</h1>
+                                        <p>created a basic calculator  using CSS, HTML and JAVASCRIPT. <br/>
+                                            The calculator has a display screen to show user input and results.</p>
+                                    </div>
+                                    <div class="box33">
+                                        <h1>DTMF(Dual Tone Multi Frequency)</h1>
+                                        <p>Created a DTMF controlled ROBOT CAR.<br/>It generates tones by a telephone when the numbers are pressed. 
+                                        <br/>These tones are transmitted with the voice channel.</p>
+                                    </div>
+                                       </div>
+
+                                </div>
+                                <div id="fb3">
+                                    <h1>CONTACT ME</h1>
+                                </div>
+                                <div id="contact">
+                                    <h1>contact me:8840471214</h1><br/>
+                                    <h1>email:saurabhsing224052000@gmail.com</h1>
+                                    <div id="for">
+                                        <form>
+                                            <fieldset>
+                                            NAME:<input type="text" placeholder="NAME"><br/><br/>
+                                            CONTACT NO:<input type="text" placeholder="contact no"><br/><br/>
+                                            E-MAIL:<input type="text" placeholder="e.g.:abc@gmail.com"><br/><br/>
+                                            Message:<input type="text" placeholder="Type your message here" class="val"><br/><br/>
+                                            <input type="button" value="SUBMIT">
+                                          </fieldset>
+                                        </form>
+                                    </div>
+                                </div>
+</div>
+                            </div>
+                                
+
+                        </div>
+                    </div>
